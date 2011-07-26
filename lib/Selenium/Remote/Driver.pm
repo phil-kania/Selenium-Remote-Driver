@@ -176,7 +176,7 @@ created when you use the find_* methods.
     or
     my $driver = new Selenium::Remote::Driver('browser_name'       => 'chrome',
                                               'platform'           => 'VISTA',
-                                              'extra_capabilities' => {"chrome.switches" => ["--user-data-dir=$ENV{LOCALAPPDATA}\\Google\\Chrome\\User Data"],},
+                                              'extra_capabilities' => {'chrome.switches' => ["--user-data-dir=$ENV{LOCALAPPDATA}\\Google\\Chrome\\User Data"],},
                                               );
 =cut
 
