@@ -581,7 +581,7 @@ sub go_forward {
 
 sub refresh {
     my $self = shift;
-    my $res = { 'command' => 'goForward' };
+    my $res = { 'command' => 'refresh' };
     return $self->_execute_command($res);
 }
 
